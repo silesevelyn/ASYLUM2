@@ -1,0 +1,338 @@
+body
+{
+    font-family: sans-serif; /*Tipo de letra*/
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+header
+{
+    display: flex;
+    height: 250px; 
+    background-color:black ;
+    justify-content: center;
+    align-items: center; /*Centra*/
+    padding: 40px;/*le da tamano al coso negro del encabezado*/
+    margin-bottom: 10px;
+}
+
+.colorsito
+{
+    background-color: darkgrey;
+    border: 5px;
+}
+
+
+.Creepypastas
+{
+    display: flex;
+    height: 150px; 
+    padding: 50px;
+    align-items: center; /*Pone el texto en el puto centro*/
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;/*El tamano de la puta letra*/
+    text-decoration: none;
+    color:white;
+}
+.Inicio
+{
+    position: absolute;
+    text-align: center;
+    background-color:darkgray ;
+    height: 4em;/*Le da el tamano al logo de mierda de inicio*/
+    width: 15em;/*Le da el tamano al logo de mierda de inicio*/
+    left: 50px;
+    top: 20px;
+    border-radius:150px;/*borde/ovalada*/
+    font-size: 15px;
+}
+
+.Inicio h2
+{
+    text-align: center;
+}
+
+
+/*DETALLES DE LOS CREEPYPASTAS*/
+
+
+/*Detalles del caso SLENDERMAN */
+.Slenderman
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE SLENDERMAN*/
+.Slenderman img
+{   
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Slenderman p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE LAUGHING JACK */
+.LaughingJack
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE NOPPERA-BO*/
+.LaughingJack img
+{  
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LaughingJack p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO SUICIDIO DE CALAMARDO */
+.ElsuicidiodeCalamardo
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO TEKE-TEKE*/
+.ElsuicidiodeCalamardo img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.ElsuicidiodeCalamardo p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL  CASO DE BACKROOMS*/
+.Backrooms
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA  DE BACKROOMS*/
+.Backrooms img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Backrooms p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor2
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO SMILE DOG*/
+.Smiledog
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO SMILE DOG */
+.Smiledog img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Smiledog p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE JEFF THE KILLER */
+.Jeffthekiller
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE JEFF THE KILLER*/
+.Jeffthekiller img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Jeffthekiller p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor3
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE  BLOODY PAINTER*/
+.Bloodypainter
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE BLOODY PAINTER*/
+.Bloodypainter img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Bloodypainter p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE THE PUPPETEER */
+.Thepuppeteer
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO THE PUPPETEER*/
+.Thepuppeteer img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Thepuppeteer p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor4
+{
+    display: flex;
+}

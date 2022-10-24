@@ -1,0 +1,789 @@
+body
+{
+    font-family: sans-serif; /*Tipo de letra*/
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+header
+{
+    display: flex;
+    height: 250px; 
+    background-color:black ;
+    justify-content: center;
+    align-items: center; /*Centra*/
+    padding: 40px;/*le da tamano al coso negro del encabezado*/
+    margin-bottom: 10px;
+}
+
+.colorsito
+{
+    background-color: darkgrey;
+    border: 5px;
+}
+
+
+.Mitologia
+{
+    display: flex;
+    height: 150px; 
+    padding: 50px;
+    align-items: center; /*Pone el texto en el puto centro*/
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;/*El tamano de la puta letra*/
+    text-decoration: none;
+    color:white;
+}
+.Inicio
+{
+    position: absolute;
+    text-align: center;
+    background-color:darkgray ;
+    height: 4em;/*Le da el tamano al logo de mierda de inicio*/
+    width: 15em;/*Le da el tamano al logo de mierda de inicio*/
+    left: 50px;
+    top: 20px;
+    border-radius:150px;/*borde/ovalada*/
+    font-size: 15px;
+}
+
+.Inicio h2
+{
+    text-align: center;
+}
+
+/*DETALLES DE LAS MITOLOGIAS GRIEGAS*/
+
+
+/*DETALLES DEL CASO DE LA HISTORIA DE MEDUSA*/
+.LahistoriadeMedusa
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LA HISTORIA DE MEDUSA*/
+.LahistoriadeMedusa img
+{   
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LahistoriadeMedusa p
+{
+    font-size: 17px;
+
+}
+
+
+/*DETALLES DEL CASO DE SUCUBOS E INCUBOS*/
+.SucuboseIncubos
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE SUCUBOS E INCUBOS*/
+.SucuboseIncubos img
+{  
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.SucuboseIncubos p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO LA CAJA DE PANDORA*/
+.LacajadePandora
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO LA CAJA DE PANDORA*/
+.LacajadePandora img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LacajadePandora p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE LAS BRUJAS */
+.LasBrujas
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LAS BRUJAS */
+.LasBrujas img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LasBrujas p
+{
+    font-size: 17px;
+
+}
+
+.Contenedor2
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE LOS DUENDES */
+.LosDuendes
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LOS DUENDES */
+.LosDuendes img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LosDuendes p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE LOS LOBIZON */
+.Loslobizon
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LOS LOBIZON */
+.Loslobizon img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Loslobizon p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor3
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE EL POMBERO */
+.Elpombero
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DEDE EL POMBERO */
+.Elpombero img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Elpombero p
+{
+    font-size: 17px;
+
+}
+
+
+/*DETALLES DEL CASO DE LA LLORONA */
+.Lallorona
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LA LLORONA */
+.Lallorona img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Lallorona p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor4
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE LAS SIRENAS */
+.Lassirenas
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LAS SIRENAS */
+.Lassirenas img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Lassirenas p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE EL CHUPACABRAS */
+.Elchupacabras
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE EL CHUPACABRAS */
+.Elchupacabras img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Elchupacabras p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor5
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE LOS EXTRATERRESTRES  */
+.Losextraterrestres
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LOS EXTRATERRESTRES  */
+.Losextraterrestres img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Losextraterrestres p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE EL TRIANGULO DE LAS BERMUDAS  */
+.EltriangulodelasBermudas
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE EL TRIANGULO DE LAS BERMUDAS  */
+.EltriangulodelasBermudas img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.EltriangulodelasBermudas p
+{
+    font-size: 18px;
+
+}
+
+
+.Contenedor6
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE KUCHISAKE-ONNA*/
+.KuchisakeOnna
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE KUCHISAKE-ONNA*/
+.KuchisakeOnna img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.KuchisakeOnna p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE NOPPERA-BO */
+.NopperaBo
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE NOPPERA-BO*/
+.NopperaBo img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.NopperaBo p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor7
+{
+    display: flex;
+}
+
+
+
+/*DETALLES DEL CASO DE  TEKE-TEKE */
+.TekeTeke
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE TEKE-TEKE */
+.TekeTeke img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.TekeTeke p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE MUNECA DIABOLICA OKIKU */
+.LamunecadiabolicaOkiku
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE MUNECA DIABOLICA OKIKU*/
+.LamunecadiabolicaOkiku img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LamunecadiabolicaOkiku p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor8
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE  HACHISHAKUSAMA */
+.Hachishakusama
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE HACHISHAKUSAMA */
+.Hachishakusama img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Hachishakusama p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE MUNECA ANNABELLE */
+.MunecaAnnabelle
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE MUNECA ANNABELLE*/
+.MunecaAnnabelle img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.MunecaAnnabelle p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor9
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE  ROBERT THE DOLL */
+.Robertthedoll
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE ROBERT THE DOLL */
+.Robertthedoll img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Robertthedoll p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO VAMPIROS*/
+.Vampiros
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO VAMPIROS*/
+.Vampiros img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Vampiros p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor10
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO LAMIA */
+.Lamia
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO LAMIA */
+.Lamia img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Lamia p
+{
+    font-size: 18px;
+
+}
+
+
+.Contenedo11
+{
+    display: flex;
+}

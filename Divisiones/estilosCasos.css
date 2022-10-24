@@ -1,0 +1,652 @@
+body
+{
+    font-family: sans-serif; /*Tipo de letra*/
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+header
+{
+    display: flex;
+    height: 250px; 
+    background-color:black ;
+    justify-content: center;
+    align-items: center; /*Centra*/
+    padding: 40px;/*le da tamano al coso negro del encabezado*/
+    margin-bottom: 10px;
+}
+
+.colorsito
+{
+    background-color: darkgrey;
+    border: 5px;
+}
+
+.Casos
+{
+    display: flex;
+    height: 150px; 
+    padding: 50px;
+    align-items: center; /*Pone el texto en el puto centro*/
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;/*El tamano de la puta letra*/
+    text-decoration: none;
+    color:white;
+}
+.Inicio
+{
+    position: absolute;
+    text-align: center;
+    background-color:darkgray ;
+    height: 4em;/*Le da el tamano al logo de mierda de inicio*/
+    width: 15em;/*Le da el tamano al logo de mierda de inicio*/
+    left: 50px;
+    top: 20px;
+    border-radius:150px;/*borde/ovalada*/
+    font-size: 15px;
+}
+
+.Inicio h2
+{
+    text-align: center;
+}
+
+
+/*DETALLES DE LOS CASOS*/
+
+
+/*Detalles del caso Proyecto Abigail*/
+.ProyectoAbigail
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE PROYECTO ABIGAIL*/
+.ProyectoAbigail img
+{   
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.ProyectoAbigail p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE PAULETTE GEBARA*/
+.PauletteGebara
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE PAULETTE GEBARA*/
+.PauletteGebara img
+{  
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.PauletteGebara p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO LA FAMILIA TROMP*/
+.LafamiliaTromp
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO LA FAMILIA TROMP*/
+.LafamiliaTromp img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LafamiliaTromp p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE LACEY FLETCHER*/
+.LaceyFletcher
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LACEY FLETCHER*/
+.LaceyFletcher img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LaceyFletcher p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor2
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO LA DALIA NEGRA*/
+.Ladalianegra
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO LA DALIA NEGRA*/
+.Ladalianegra img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Ladalianegra p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE KRIS KREMERS Y LISANNE FROON*/
+.KrisKremersyLisanneFroon
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO KRIS KREMERS Y LISANNE FROON*/
+.KrisKremersyLisanneFroon img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.KrisKremersyLisanneFroon p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor3
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE JUNKO FURUTA*/
+.JunkoFuruta
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE JUNKO FURUTA*/
+.JunkoFuruta img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.JunkoFuruta p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE JOHN WAYNE GACY*/
+.JohnWayneGacy
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO KRIS KREMERS Y LISANNE FROON*/
+.JohnWayneGacy img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.JohnWayneGacy p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor4
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE  JOE METHENY*/
+.JoeMetheny
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE JOE METHENY*/
+.JoeMetheny img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.JoeMetheny p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE JACK EL DESTRIPADOR*/
+.Jackeldestripador
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO  DE JACK EL DESTRIPADOR*/
+.Jackeldestripador img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Jackeldestripador p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor5
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE DEE DEE Y GYPSY*/
+.DeeDeeyGypsy
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE  DEE DEE Y GYPSY*/
+.DeeDeeyGypsy img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.DeeDeeyGypsy p
+{
+    font-size: 18px;
+
+}
+
+/*DETALLES DEL CASO DE JACK EL DESTRIPADOR*/
+.ElasesinodelhachadeNOrleans
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO  DE ASESINO DEL HACHA DE N.ORLEANS */
+.ElasesinodelhachadeNOrleans img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.ElasesinodelhachadeNOrleans p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor6
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO DE  JONBENET RAMSEY*/
+.JonbenetRamsey
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE JONBENET RAMSEY*/
+.JonbenetRamsey img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.JonbenetRamsey p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE ELISA LAM */
+.ElisaLam
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE ELISA LAM */
+.ElisaLam img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.ElisaLam p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor7
+{
+    display: flex;
+}
+
+/*DETALLES DEL CASO DE JEFFREY DAHMER*/
+.JeffreyDahmer
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE JEFFREY DAHMER*/
+.JeffreyDahmer img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.JeffreyDahmer p
+{
+    font-size: 18px;
+
+}
+
+
+/*DETALLES DEL CASO DE LA MUERTE DE MARILYN MONROE */
+.LamuertedeMarilynMonroe
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE LA MUERTE DE MARILYN MONROE  */
+.LamuertedeMarilynMonroe img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.LamuertedeMarilynMonroe p
+{
+    font-size: 18px;
+
+}
+
+.Contenedor8
+{
+    display: flex;
+}
+
+
+/*DETALLES DEL CASO  DE ALBERT FISH*/
+.AlbertFish
+{
+    display: flex;/*Posibilita a poner las cosas mas centradas pero dandole tamanito*/
+    height: 300px; /*Tamanito del backgraund*/
+    width: 650px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*DETALLES DE LA IMAGEN DE PORTADA DEL CASO DE ALBERT FISH  */
+.AlbertFish img
+{
+    height: 290px; 
+    width: 220px;
+    margin-right: 40px;/*Separa un poco el texto de la imagen */
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.AlbertFish p
+{
+    font-size: 18px;
+
+}
+
+
+.Contenedor9
+{
+    display: flex;
+}
+
+
+
+

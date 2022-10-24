@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/2e2530daeb.js" 
+    crossorigin="anonymous"></script>  <!--El link de la lupita osea de la imagne de la lupa-->
+
+
+
+<link rel="stylesheet" href= "estilo.css"> <!--Crea una relacion con el CSS-->
+
+<!--<script src="main.js"  type="module"></script>-->
+
+</head>
+<body>
+<div class="Color">
+    <header>
+        <!-- Es el encabezado-->
+        <a href= "#" class="logo">
+            <img src="logo.png" alt="logo de la pagina">
+            <h2 class = "nombre-empresa">ASYLUM</h2>
+            <!-- La lupa de buscar-->
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" required>
+                <div class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!--El Usuario-->
+            <div class="Usuario">
+            <a href="javascript:abrir()" class="Usuario1"> <img src="perfil-del-usuario.png"></a>
+            </div>
+        </a>
+    </header>
+
+    <!--Cuadradito de usuario-->
+<div class="Usuarioventana" id="vent">
+        <h1>Bienvenide a ASYLUM</h1>
+    <div id="cerrar"> <a href="javascript:cerrar()"> <img src="error (1).png"> </a></div>
+
+    <div class="contenedortodo">
+
+        <div class="caja_trasera">
+            <div class="caja_trasera_login">
+                <h3>¿Ya tienes cuenta?</h3>
+                <p>Inicia sesion para entrar en la pagina</p>
+                <button id="btn_iniciar-sesion">Iniciar sesion</button>
+            </div>
+    
+            <div class="cajatrasera_login-register">
+                <h3>¿Aun no tienes cuenta?</h3>
+                <p>Registrate para iniciar sesion</p>
+                <button id="btn_Registrarse">Registrarse</button>
+            </div>
+        </div>
+    <!--Fomulario de login y Registro-->
+            <!--Login-->
+            <div class="contenedor_login-register" >
+            <form action="" class="formulario_login">
+                <h2>Iniciar sesion</h2>
+                <input type="text" id="signup-email" placeholder="Correo Electronico">
+                <input type="text" id="signup-password" placeholder="Contraseña">
+                <button> Entrar</button>
+            </form>
+            <!--Registro-->
+            <form action="" class="formulario_register">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre Completo">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <button>Registrarse</button>
+            </form>
+            <script src="./main.js"></script>
+            </div>
+    </div>
+    </main>    
+</div>
+
+
+    <!--Imagen 2 despues del encabezado-->
+    <img src="imagen2.png" class="imagen">
+
+    <div class="Quienessomos">
+        <h1 >¿Quienes somos?</h1>
+        <h2> ¡Bienvenidos!</h2>
+        <img src="gatito.png" class="gatito">
+        <p>
+            El significado de la palabra <strong> ASYLUM</strong> es <strong>"lugar de refugio seguro o inviolable</strong>, con ello queremos expresar que a pesar de no ser un lugra físico, te sentirás protegido y confortable como si fuese tu propio hogar.
+            <br>
+            <br>
+            A veces te merecés un descanso del exterior, ¿por qué no sumergirte en la profundidad de nuestras letras?
+            <br>
+            ¡Buscate unos pochoclos y ponete cómodo! Esta es una página web creada para los amantes de la lectura y elmisterio. Podrás encontrarte con caos reales, leyendas, mitología y hasta con creepypastas. Una vez que le agarras el gusto, no querrás salir más.
+            
+        </p>
+        <img src="pochoclito.png" class="pochoclito">
+        
+    </div>
+
+    <!--Crear los putos items-->
+    <div class="RectangulodeCasos">
+            <h1>CASOS MISTERIOSOS</h1> 
+        <p class="Textito1"> Si sos un antisocial que no sale de su casa y apenas sabe de las cosas que pasan en el exterior, esta sección es para vos. Acá te podrás encontrar con famosos asesinos seriales, desapariciones, muertes misteriosas y más. Anímate a adentrarte a una variedad de casos reales que quizás ya se hayan resuelto o no. ¿Qué tanto conoces del mundo y de sus habitantes?</p>
+        <a href="Divisiones/Casos.html" class="Boton1"> 
+            Leer más
+        </a>
+    </div>
+
+    <div class="RectanguloCreepypastas">
+            <h1>CREEPYPASTAS</h1>
+        <p class="Textito2">  Atrévete a unirte a esta entretenida sección.¿Qué es un creepypasta? Es el término que reciben historias de terror cortas que tiene un personaje, el cual puede ser ficticio en su totalidad o tomar elementos de la realidad para hacerlo más cercano a las audiencias. Entre las narraciones más conocidas se encuentran el lado oculto detrás de Hello Kitty, el de Slender man  y Jeff The Killer, la que más impacto tuvo entre los sitios de diálogo.</p>
+        <a href="Divisiones/Creepypastas.html" class="Boton2"> 
+            Leer más
+        </a>
+    </div>      
+
+    <div class="RectanguloMitos">
+            <h1>MITOLOGIAS Y LEYENDAS </h1>
+        <p class="Textito3"> ¿Por qué no salir del mundo real un rato y sumergirse en lo sobrenatural? En esta sección te presentamos mitos y leyendas propias de un pueblo o cultura. Son narraciones protagonizadas por dioses, héroes o seres fantásticos, que explican o dan sentido a determinados hechos o fenómenos. </p>
+        <a href="Divisiones/Mitologia.html" class="Boton3" >
+            Leer más
+        </a>
+    </div>
+</div>
+<!--CODIGO DE JAVASCRIPT-->
+<script>
+    
+function abrir()
+{
+document.getElementById("vent").style.display ="block";
+}
+
+function cerrar()
+{
+    document.getElementById("vent").style.display ="none";
+}
+</script>
+
+<div class="PiedePagina">
+
+    <div class="colegio">
+        <h1>PROYECTO INFORMATICO 5° 8°</h1>
+        <img src="et12.png" alt="colegiobonito">
+        <h2>Esc. Técnica N° 12 Libertador Gral. José de San Martín</h2>
+    </div>
+    
+    <div class="profesor">
+    <h1>PROFESOR</h1>
+        <img src="profe.png" alt="profe">
+        <h2>Sergio Mendoza</h2>
+    </div>
+
+
+
+<div class="personal">
+    <h1>INTEGRANTES</h1>
+    <div class="conteinerPersonal" style="display: flex;">
+    <img src="gatito2.png" alt="Personal1">
+    <h2>MAGALI
+        <br>
+        RODRIGUEZ
+        <br>
+        (Copywriter)
+    </h2>
+    <img src="gatito4.png" alt="Personal2">
+    <h2>ROSAURA
+        <br>
+        PEDROZO
+        <br>
+        (Recopiladora)
+    </h2>
+    <img src="gatito3.png" alt="Personal3">
+    <h2>JACKY
+        <br>
+        HUAMAN
+        <br>
+        (Recopiladora)
+    </h2>
+    <img src="gatito1.png" alt="Personal4">
+    <h2>EVELYN
+        <br>
+        SILES
+        <br>
+        (Diseñadora y desarolladora web)
+    </h2>
+    </div>
+</div>
+
+<div class="Redes">
+    <h2>SIGUENOS EN REDES</h2>
+    <div class="contenedorderedes">
+    <img src="instagram.png" alt="instagram">
+    <img src="facebook.png" alt="facebook">
+    <img src="twitter.png" alt="twitter">
+    </div>
+</div>
+
+<div class="Redes2">
+    <h1>CONTACTE CON NOSOTRAS</h1>
+    <img src="mail.png" alt="mail">
+    <img src="what.png" alt="whatt">
+</div>
+</div>
+
+
+
+
+</body>
+</html>

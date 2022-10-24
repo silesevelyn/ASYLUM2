@@ -1,0 +1,108 @@
+body
+{
+    font-family: sans-serif; /*Tipo de letra*/
+    margin: 0;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+header
+{
+    display: flex;
+    height: 250px; 
+    background-color:black ;
+    justify-content: center;
+    align-items: center; /*Centra*/
+    padding: 40px;/*le da tamano al coso negro del encabezado*/
+    margin-bottom: 10px;
+}
+
+.Inicio
+{
+    position: absolute;
+    text-align: center;
+    background-color:darkgray ;
+    height: 4em;/*Le da el tamano al logo de mierda de inicio*/
+    width: 15em;/*Le da el tamano al logo de mierda de inicio*/
+    left: 50px;
+    top: 20px;
+    border-radius:150px;/*borde/ovalada*/
+    font-size: 15px;
+}
+
+.LahistoriadeMedusa
+{
+    display: flex;
+    height: 150px; 
+    padding: 50px;
+    align-items: center; /*Pone el texto en el puto centro*/
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;/*El tamano de la puta letra*/
+    text-decoration: none;
+    color:white;
+}
+
+.colorsito/*Le agrega el color gris del fondo*/
+{
+    background-color: darkgray;
+    display: flex;
+    height: 4000px; 
+}
+
+/*DETALLES DE LAS IMAGENES*/
+.LahistoriadeMedusa1 img
+{
+    /*Centra toda la puta imagen*/
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+/*DETALLES DE LOS TEXTOS*/
+
+.LahistoriadeMedusa1 
+{
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.p4
+{
+    margin-bottom: 300px;
+}
+
+.p1
+{
+    margin-top: 50px;
+}
+
+.h2
+{
+    font-size: 20px;
+}
+
+.LahistoriadeMedusa1  h2
+{
+    text-decoration: underline;
+}
+
+.LahistoriadeMedusa1  h3
+{
+    text-decoration: underline;
+}
+
+
+
+
